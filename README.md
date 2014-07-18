@@ -20,4 +20,9 @@ Modo de uso
 2- Agrega a tus textboxs tus formularios o donde quieras  
 3- Agregale la propiedad placeholder o label  
 4- Llama a $('#tuElementoId').niceHolder();  
+
+-------------------------------  
+Examples / Ejemplos   
+-------------------------------   
+[Jsfiddle - NiceHolders example](http://jsfiddle.net/nesman/pSDXp/)
   
