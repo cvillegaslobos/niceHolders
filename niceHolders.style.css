@@ -8,7 +8,7 @@
 .niceHolderText-container {
     position:relative;
     overflow:hidden;
-    display:inline-block;
+    display: inline-table;
 }
 .niceHolderText-container .niceHolderText-label {
 	font-family:helvetica;
