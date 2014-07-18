@@ -2,8 +2,8 @@
 
     $.fn.niceHolder = function () {
         this.each(function () {
-
-            switch ($(this).type) {
+			
+            switch ($(this).attr('type')) {
                 case "text":
                     var $this = $(this);
                     var $label = $this.attr('placeholder') || $this.attr('label');
@@ -17,10 +17,10 @@
     
                                 var $label = $(this).attr('label');
                                 var $id = $(this).attr('id') || (new Date().getTime());
-    
-    
+								
+								
                                 $(this).removeAttr('placeholder')
-    
+								$(this).attr('id',$id);
                                 $(this).parent().remove('.niceHolderText-label').prepend('<div id="niceHolderText-label_' + $id + '" class="niceHolderText-label">' + $label + '</div>');
                                 $(this).parent().find('.niceHolderText-label').animate({
                                     top: "0px"
@@ -44,4 +44,4 @@
         });
     }
 }
-}(jQuery));
+(jQuery));

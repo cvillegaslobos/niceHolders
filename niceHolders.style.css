@@ -11,6 +11,7 @@
     display:inline-block;
 }
 .niceHolderText-container .niceHolderText-label {
+	font-family:helvetica;
     position:absolute;
     margin-bottom:-20px;
     margin-left:6px;
