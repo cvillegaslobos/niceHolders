@@ -1,0 +1,20 @@
+.niceHolderText {
+    padding:5px;
+    padding-top:10px;
+    border:0px;
+    border-bottom:1px solid silver;
+    outline:none;
+}
+.niceHolderText-container {
+    position:relative;
+    overflow:hidden;
+    display:inline-block;
+}
+.niceHolderText-container .niceHolderText-label {
+    position:absolute;
+    margin-bottom:-20px;
+    margin-left:6px;
+    font-size:11px;
+    color: #008FFF;
+    top: -15px;
+}
